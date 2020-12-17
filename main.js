@@ -5,3 +5,7 @@ function action(n) {
         return ("Liczba nie znajduje się w przedziale")
     }
 }
+
+console.log(action(10));
+console.log(action(150));
+console.log(action(299999));
